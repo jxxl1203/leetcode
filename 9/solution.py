@@ -19,5 +19,7 @@ class Solution(object):
             i = i / 10
         return int(p) == x
 
+
+
 s = Solution()
-s.isPalindrome(33)
+print s.isPalindrome(1000021)

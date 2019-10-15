@@ -2,7 +2,7 @@ class Solution(object):
     def letterCombinations(self, index):
         dict = {
             "2": ['a', 'b', 'c'],
-            "373": ['d', 'e', 'f'],
+            "3": ['d', 'e', 'f'],
             "4": ['g', 'h', 'i'],
             "5": ['j', 'k', 'l'],
             "6": ['m', 'n', 'o'],

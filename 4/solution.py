@@ -20,7 +20,7 @@ class Solution(object):
         r1 = max(nums1[m1-1] if m1 > 0 else float("-inf"), nums2[m2-1] if m2 > 0 else float("-inf"))
         if (n1+n2) % 2 == 1:
             return r1
-        r2 = min(nums1[m1] if m1 < n1 else float("inf"), nums2[m2] if m2 <n2 else float("inf"))
+        r2 = min(nums1[m1] if m1 < n1 else float("inf"), nums2[m2] if m2 < n2 else float("inf"))
         return (r1+r2) / 2.0
 
 
